@@ -1,0 +1,110 @@
+html{
+  font-family : 'karla';
+  font-size : 16px;
+}
+body{
+  padding : 20px;
+  
+}
+.container{
+    box-shadow: 2px 3px 7px 0px rgba(0,0,0,0.35);
+    width : 550px;
+    height : 200px;
+    padding-top: 0px;
+    margin-top:0px;
+}
+.bothBoxes{
+  display : flex;
+  
+}
+#header{
+  padding-top: 25px;
+  margin :25px;
+  color :rgb(79, 188, 202);
+}
+#subheader{
+  margin-left :25px;
+  margin-bottom:7px;
+  color : rgb(208, 195, 79);
+}
+p{
+  margin-left :25px;
+  margin-right :55px;
+  margin-top:15px;
+}
+#mainText{
+  padding-top: 5px;
+  color : rgb(173, 179, 182);
+}
+.monthly{
+  
+    width : 275px;
+    height : 250px;
+    background-color : #2ab2af;
+    box-shadow: 2px 3px 7px 0px rgba(0,0,0,0.35);
+    overflow : hidden;
+}
+.whyUs{
+    width : 275px;
+    height : 250px;
+    background-color : #2ebfbd;
+    box-shadow: 2px 3px 7px 0px rgba(0,0,0,0.35);
+    overflow : hidden;
+  
+}
+#subscription {
+  margin-left : 26px;
+  margin-top : 30px;
+  margin-bottom : 0px;
+  color : white;
+}
+#why {
+  margin-left : 25px;
+  margin-top : 30px;
+  color : white;
+}
+#access{
+  margin-right :20px;
+  color : white;
+}
+#button{
+  width : 210px;
+  height : 40px;
+  margin-top : 10px;
+  margin-left: 30px;
+  font-size : 17.5px;
+  color : white;
+  border : none;
+  background-color : #c0df34;
+  box-shadow: 2px 3px 7px 0px rgba(0,0,0,0.35);
+  transition-duration: 0.4s;
+}
+#button:hover {
+  background-color: #a9c42d; /* Green */
+  box-shadow: 2px 3px 7px 0px rgba(0,0,0,0.8);
+  cursor : pointer;
+  transform : scale(1.1);
+}
+.priceMonth{
+  display : flex;
+}
+#price{
+  font-weight : 700;
+  font-size: 24px;
+  margin-top: 26px;
+  margin-right : 3px;
+  margin-bottom : 0px;
+  color : white
+}
+#per{
+  margin-top: 31px;
+  margin-left: 7px;
+  color : white;
+}
+li{
+  margin-left: 5px;
+  margin-top: 2px;
+  color : white;
+  opacity : 0.8
+    
+}
